@@ -9,7 +9,7 @@ export default defineConfig({
     host: 'localhost'
   },
   build: {
-    outDir: 'docs',
+    outDir: '../docs',
     sourcemap: false
   }
 })
