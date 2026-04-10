@@ -1,0 +1,31 @@
+/**
+ * Footer styles
+ */
+
+.footer {
+  background-color: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+  padding: var(--spacing-2xl) var(--spacing-lg);
+  margin-top: auto;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content p {
+  margin: var(--spacing-sm) 0;
+  font-size: var(--font-size-sm);
+}
+
+.footer-meta {
+  color: var(--color-text-secondary) !important;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: var(--spacing-lg);
+  }
+}
